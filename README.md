@@ -13,7 +13,10 @@ High resolution compressed images for use as website static background images.
   ```
 
 ## Example Image
-![00001](./img/00001c.png)
+![](./img/00001c.png)
+
+## Example Random Image
+![](http://hrci.adrw.ch/)
 
 ## Image Properties
 All images hold the following properties
