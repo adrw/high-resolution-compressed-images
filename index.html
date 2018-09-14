@@ -5,16 +5,16 @@
     <script type="text/javascript">
       var randomImageNumber = Math.floor(Math.random() * 32) + 1
       var paddedFileNumber = ("00000" + randomImageNumber).slice(-5)
-      var randomImageUrl = `http://hrcimg.adrw.ch/adrw-${paddedFileNumber}-hrci.png`
+      var randomImageUrl = `http://hrcimg.adrw.ch/${paddedFileNumber}c.png`
       if (window.location.hash != "#noredirect" && window.location.search != "?noredirect") {
         window.location.replace(randomImageUrl)
       }
     </script>
     <title>Redirect andrewparadi.com -> adrw.ch</title>
     <noscript>
-      <meta http-equiv="refresh" content="url=http://hrcimg.adrw.ch/adrw-00001-hrci.png">
+      <meta http-equiv="refresh" content="url=http://hrcimg.adrw.ch/00001c.png">
     </noscript>
-    <meta http-equiv="refresh" content="url=http://hrcimg.adrw.ch/adrw-00001-hrci.png">
+    <meta http-equiv="refresh" content="url=http://hrcimg.adrw.ch/00001c.png">
   </head>
   <body>
   </body>

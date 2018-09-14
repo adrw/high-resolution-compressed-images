@@ -19,5 +19,5 @@ EOF
 dir=$([[ $# -ne 1 ]] && echo "$(pwd)" || echo "$1")
 [[ -d $dir ]] || usage
 cd $dir
-find . -name "*.png" -print0 | xargs -0 -P8 -L1 pngquant --ext -hrci.png --speed 1 --quality=0-10 --posterize 4 --strip --floyd=0.05 --force 4
-mv *-hrci.png ../img
+find . -name "*.png" -print0 | xargs -0 -P8 -L1 pngquant --ext c.png --speed 1 --quality=0-10 --posterize 4 --strip --floyd=0.05 --force 4
+mv *c.png ../img

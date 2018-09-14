@@ -1,11 +1,19 @@
 # high-resolution-compressed-images
 High resolution compressed images for use as website static background images.
 
-Images can be included by the short link: *http://hrcimg.adrw.ch/adrw-{img number}-hrci.png*
+##Getting Started
+- Include a specfic image
+  ```HTML
+  <img src="http://hrcimg.adrw.ch/00001.png"/>
+  ```
+
+- Include a random image
+  ```HTML
+  <img src="http://hrci.adrw.ch/"/>
+  ```
 
 ##Example Image
-
-![00001](./img/adrw-00001-hrci.png)
+![00001](./img/00001c.png)
 
 #Image Properties
 All images hold the following properties
