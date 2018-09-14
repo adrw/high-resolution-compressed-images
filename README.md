@@ -18,7 +18,7 @@ High resolution compressed images for use as website static background images.
 ## Image Properties
 All images hold the following properties
 
-| property | original ([./raw](./raw)) | compressed [./img](./img) | 
+| property | original -> [./raw](./raw) | compressed -> [./img](./img) | 
 |---|---|---|
 | size | 1.1-2.5mb | < 50kb |
 | height | 2160px | 2160px |
