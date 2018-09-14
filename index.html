@@ -3,17 +3,18 @@
   <head>
     <meta charset="UTF-8">
     <script type="text/javascript">
-      var newDomain = "http://adrw.ch"
-      var newLoc = newDomain + window.location.pathname + window.location.hash + window.location.search
+      var randomImageNumber = Math.floor(Math.random() * 32) + 1
+      var paddedFileNumber = ("00000" + randomImageNumber).slice(-5)
+      var randomImageUrl = `http://hrcimg.adrw.ch/adrw-${paddedFileNumber}-hrci.png`
       if (window.location.hash != "#noredirect" && window.location.search != "?noredirect") {
-        window.location.replace(newLoc)
+        window.location.replace(randomImageUrl)
       }
     </script>
     <title>Redirect andrewparadi.com -> adrw.ch</title>
     <noscript>
-      <meta http-equiv="refresh" content="url=http://hrci.adrw.ch/hrc-00001.png">
+      <meta http-equiv="refresh" content="url=http://hrcimg.adrw.ch/adrw-00001-hrci.png">
     </noscript>
-    <meta http-equiv="refresh" content="url=http://hrci.adrw.ch/hrc-00001.png">
+    <meta http-equiv="refresh" content="url=http://hrcimg.adrw.ch/adrw-00001-hrci.png">
   </head>
   <body>
   </body>
