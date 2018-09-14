@@ -30,5 +30,12 @@ All images hold the following properties
 | number of colors | 256+ | 4 |
 | Alpha channel | Yes | No |
 
+## Todo
+- [x] Capture 4k base images with Trianglify
+- [x] Create optimize script using pngquant
+- [x] Create random image selection JS
+- [ ] Test forwarding / random selection works
+
 ## Resources
 - [pngquant](https://github.com/kornelski/pngquant)
+- [Trianglify](https://github.com/qrohlf/trianglify) by [@qrholf](http://qrohlf.com/)
