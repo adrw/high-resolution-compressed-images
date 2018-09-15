@@ -2,21 +2,22 @@
 High resolution compressed images for use as website static background images.
 
 ## Getting Started
-- Include a specfic image
+- Include a specfic image with HTTP
   ```HTML
-  <img src="http://hrcimg.adrw.ch/00001.png"/>
+  <img src="http://hrcimg.adrw.ch/00001c.png"/>
   ```
 
-- Include a random image
+- ...or HTTPS
   ```HTML
-  <img src="http://hrci.adrw.ch/"/>
+  <img src="https://raw.githubusercontent.com/adrw/high-resolution-compressed-images/master/img/00001c.png"/>
   ```
 
+- ...or feel free to download and use the images in your own repo
+
+- Browse to a random image. Every time you go to [hrci.adrw.ch](http://hrci.adrw.ch) a new random image will be displayed.
+  
 ## Example Image
 ![](./img/00001c.png)
-
-## Example Random Image
-![](http://hrci.adrw.ch/)
 
 ## Image Properties
 All images hold the following properties
@@ -29,12 +30,6 @@ All images hold the following properties
 | color space | RGB | RGB |
 | number of colors | 256+ | 4 |
 | Alpha channel | Yes | No |
-
-## Todo
-- [x] Capture 4k base images with Trianglify
-- [x] Create optimize script using pngquant
-- [x] Create random image selection JS
-- [ ] Test forwarding / random selection works
 
 ## Resources
 - [pngquant](https://github.com/kornelski/pngquant)
