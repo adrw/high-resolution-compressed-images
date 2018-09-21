@@ -18,5 +18,5 @@ EOF
 
 dir=$([ $# -ne 1 ] && pwd || echo "$1")
 cd $dir || usage
-find . -name "*.png" -print0 | xargs -0 -P8 -L1 pngquant --ext c.png --speed 1 --quality=0-1 --strip --floyd=0.02 --force 4
+find . -name "*.png" -print0 | xargs -0 -P8 -L1 pngquant --ext c.png --speed 1 --quality=0-1 --strip --nofs --force 4
 mv *c.png ../img

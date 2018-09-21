@@ -24,7 +24,7 @@ All images hold the following properties
 
 | property | original -> [./raw](./raw) | compressed -> [./img](./img) | 
 |---|---|---|
-| size | 1.1-2.5mb | < 45kb |
+| size | 1.1-2.5mb | 13-28kb |
 | height | 2160px | 2160px |
 | width | 3840px | 3840px |
 | color space | RGB | RGB |
